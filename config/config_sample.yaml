@@ -1,0 +1,14 @@
+files:
+  certificate:
+    crt: client-cert.pem
+    key: client-key.pem
+
+shc:
+  ip: 192.168.128.10
+  pollTimeout: 60
+
+influxdb:
+  token: myToken
+  bucket: myBucket
+  org: myOrg
+  host: http://localhost:8086
